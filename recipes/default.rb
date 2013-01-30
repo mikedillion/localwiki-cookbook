@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: localwiki-cookbook
+# Cookbook Name:: localwiki
 # Recipe:: default
 #
 # Copyright (C) 2013 YOUR_NAME

@@ -1,4 +1,4 @@
-# localwiki-cookbook cookbook
+# localwiki cookbook
 
 # Requirements
 

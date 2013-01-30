@@ -16,7 +16,7 @@ Vagrant::Config.run do |config|
   # to skip installing and copying to Vagrant's shelf.
   # config.berkshelf.except = []
 
-  config.vm.host_name = "localwiki-cookbook-berkshelf"
+  config.vm.host_name = "localwiki-berkshelf"
 
   config.vm.box = "opscode-ubuntu-12.04"
   config.vm.box_url = "https://opscode-vm.s3.amazonaws.com/vagrant/boxes/opscode-ubuntu-12.04.box"
@@ -58,7 +58,7 @@ Vagrant::Config.run do |config|
     }
 
     chef.run_list = [
-      "recipe[localwiki-cookbook::default]"
+      "recipe[localwiki::default]"
     ]
   end
 end
